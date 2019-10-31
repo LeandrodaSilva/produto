@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-cli1</actionName>
+            <displayName>cli1</displayName>
+            <goals>
+                <goal>org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy-file</goal>
+            </goals>
+            <properties>
+                <file></file>
+                <repositoryId></repositoryId>
+                <url></url>
+            </properties>
+            <activatedProfiles>
+                <activatedProfile>cli1</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>
