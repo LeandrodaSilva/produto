@@ -4,15 +4,20 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html">
     <h:head>
         <title>Produto</title>
+        <style>
+            .textField {
+                background-color: orange;
+            }
+        </style>
     </h:head>
     <h:body>
         <h1>Produto</h1>
         <h:form>
             <h:outputLabel>Código </h:outputLabel>
-            <h:inputText value="#{jsfCidade.codigo}"/>
+            <h:inputText class="textField" value="#{jsfCidade.codigo}"/>
             <br></br>
             <h:outputLabel>Nome </h:outputLabel>
-            <h:inputText value="#{jsfCidade.nome}" />
+            <h:inputText class="textField" value="#{jsfCidade.nome}" />
             <h:commandButton value="Salvar" action="#{jsfCidade.persist()}"/>
         </h:form>
         
