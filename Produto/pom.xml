@@ -5,6 +5,7 @@
     <groupId>br</groupId>
     <artifactId>P2019</artifactId>
     <version>1.5.0</version>
+
     <packaging>war</packaging>
 
     <name>Produto2019</name>
