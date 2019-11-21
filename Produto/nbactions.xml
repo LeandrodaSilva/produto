@@ -2,7 +2,7 @@
 <actions>
         <action>
             <actionName>CUSTOM-cli1</actionName>
-            <displayName>cli1</displayName>
+            <displayName>cli2</displayName>
             <goals>
                 <goal>org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy-file</goal>
             </goals>
@@ -12,7 +12,7 @@
                 <url></url>
             </properties>
             <activatedProfiles>
-                <activatedProfile>cli1</activatedProfile>
+                <activatedProfile>cli2</activatedProfile>
             </activatedProfiles>
         </action>
     </actions>
