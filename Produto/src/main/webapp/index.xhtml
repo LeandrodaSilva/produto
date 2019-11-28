@@ -18,7 +18,8 @@
             <br></br>
             <h:outputLabel>Nome </h:outputLabel>
             <h:inputText class="textField" value="#{jsfCidade.nome}" />
-            <h:commandButton value="Salvar" action="#{jsfCidade.persist()}"/>
+            <button id="btn-confirm">Salvar</button>
+            <h:commandButton  style="display: none;" class="btn-save" value="Salvar" action="#{jsfCidade.persist()}"/>
         </h:form>
         
         <h:form>
@@ -38,6 +39,14 @@
            Álvaro Ymagawa<br></br>
            Leonardo Flores
         </p>
+        <script>
+            let btn = document.querySelector("#btn-confirm");
+            btn.addEventListener("click", () => {
+                let btns = document.querySelector(".btn-save");
+                let decision = confirm("Deseja mesmo salvar?");
+                decision ? btns.click() : null;
+            });
+        </script>
     </h:body>
 </html>
 
