@@ -3,8 +3,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>br</groupId>
-    <artifactId>P2019</artifactId>
-    <version>1.6.0</version>
+    <artifactId>cli4</artifactId>
+    <version>1.7.0</version>
     <packaging>war</packaging>
 
     <name>Produto2019</name>
